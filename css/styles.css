@@ -5,6 +5,29 @@
 
 .main {
     width: 1090px;
+    height: 641px;
     margin: auto;
     background-color:rgb(204, 92, 40);
+}
+
+.contenedor-logo {
+    width: 50%;
+    height: 80%;
+    background-color: orange;
+}
+
+.contenedor-logo .wallpaper {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(30, 210, 84);
+}
+
+.contenedor-logo .logo-bosch {
+    background-color: palegreen;
+}
+
+.contenedor-form {
+    width: 35%;
+    background-color: pink;
+    float: left;
 }

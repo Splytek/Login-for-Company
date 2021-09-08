@@ -7,39 +7,36 @@
   </head>
   <body>
     
+    <!-- CONTENEDOR PADRE -->
     <section class="main">
       
-      <!-- Primer contendor -->
-      <div class="contenedor-logo">
-        <header>
-          <div class="wallpaper">
-            <!-- Aqui vamos aponer el logo de Bosch abarcando el 50% de la pagina -->
-          </div>
-          <div class="logo-bosch">
-            <p>Bosch</p>
-          </div>
-        </header>
-      </div>
+      <!-- PRIMER CONTENDEDOR -->
+      <section class="contenedor-logo">
+        
+        <div class="wallpaper">
+          <!-- Aqui vamos aponer el logo de Bosch abarcando el 50% de la pagina -->
+          <img src="imgs\Fondo_Bosch.png"></img>
+        </div>
+      </section>
  
-      <!-- Segundo contendedor -->
+      <!-- SEGUNDO CONTENEDOR -->
       <section class="contenedor-form">
         
         <div class="form">
+          <!-- TITULO -->
           <div class="subtitle">
             <p>ACCOUNT LOGIN</p>
           </div>
+
+          <!-- USERNAME Y PASSWORD -->
           <div class="user-resgiter">
-            <input type="text" id="user-name">
-            <input type="text" id="password"> 
+            <input type="text" id="user-name" placeholder="Username">
+            <input type="text" id="password" placeholder="Password"> 
           </div>
+
           <div class="department-selection">
 
-            <label>Select building</label>
-              <select id="sDepartments">
-                <option value="sBA">Building A</option>
-                <option value="sBB">Building B</option>
-                <option value="sBC">Building C</option>
-              </select>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
 
             <br>  
             <label>Deparment</label><br>
@@ -48,9 +45,20 @@
               <label><input type="checkbox" id="cDC" value="">Department C</label>
 
             </br>
-            <input type="text" id="textoObjectivo">
+
+            <!-- <input type="text" id="textoObjectivo"> -->
+            
+
+            <label>Select building</label>
+            <select id="sDepartments">
+              <option value="sBA">Building A</option>
+              <option value="sBB">Building B</option>
+              <option value="sBC">Building C</option>
+            </select>
+
 
           </br>
+
           <div>
             <p>
             Terms and Conditions
@@ -67,12 +75,13 @@
 
           <div>
             <p>Forgot</p>
-            <a href="#"></a>
+            <a href="#">Username</a>
+            <a href="#">Password?</a>
           </div>
 
           </div>
         </div>
-
+      <!-- FIN SEGUNDO CONTENEDOR -->
       </section>
 
     </section>

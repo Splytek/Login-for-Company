@@ -10,24 +10,27 @@
     background-color:rgb(204, 92, 40);
 }
 
-.contenedor-logo {
+/* Este es el primer contenedor que estara a lado del segundo contenedor */
+.contenedor-logo { 
     width: 50%;
-    height: 80%;
+    height: 100%;
     background-color: orange;
+    display: inline-block;
 }
 
 .contenedor-logo .wallpaper {
     width: 100%;
-    height: 50%;
+    height: 400px;
     background-color: rgb(30, 210, 84);
 }
 
 .contenedor-logo .logo-bosch {
-    background-color: palegreen;
+    height: 100%;
+    background-color: rgb(226, 64, 24);
 }
 
 .contenedor-form {
-    width: 35%;
+    width: 50%;
     background-color: pink;
-    float: left;
+    float: right;
 }

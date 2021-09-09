@@ -21,7 +21,7 @@
  
       <!-- SEGUNDO CONTENEDOR -->
       <section class="contenedor-form">
-        
+        <!-- Agregar etiqueta FORM -->
         <div class="form">
           <!-- TITULO -->
           <div class="subtitle">
@@ -34,30 +34,30 @@
             <input type="text" id="password" placeholder="Password"> 
           </div>
 
-          <div class="department-selection">
-
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-
-            <br>  
-            <label>Deparment</label><br>
+          <!-- TEXTAREA Y DEPARTMENT(CHECKBOX) -->
+          <div>
+            <div>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+         
+            <div>
+              <label>Deparment</label><br>
               <label><input type="checkbox" id="cDA" value="">Department A</label>
               <label><input type="checkbox" id="cDB" value="">Department B</label>
               <label><input type="checkbox" id="cDC" value="">Department C</label>
+            </div>
+          </div>
 
-            </br>
-
-            <!-- <input type="text" id="textoObjectivo"> -->
-            
-
+          <!-- SELECT BUILDING -->
+          <!-- cajita va abaracra el 100% -->
+          <div class="department-selection"> 
             <label>Select building</label>
             <select id="sDepartments">
               <option value="sBA">Building A</option>
               <option value="sBB">Building B</option>
               <option value="sBC">Building C</option>
             </select>
-
-
-          </br>
+          </div>
 
           <div>
             <p>
@@ -70,8 +70,10 @@
               <label><input type="checkbox" id="admin">Administrator</label>
               <label><input type="checkbox" id="regularUser">Regular User<label>
           </div>
-
+          
+          <div>
           <input type="button" id="sign-in" value="sign-in">
+          </div>
 
           <div>
             <p>Forgot</p>

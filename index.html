@@ -22,42 +22,43 @@
       <!-- SEGUNDO CONTENEDOR -->
       <section class="contenedor-form">
         
-        <div class="form">
+        <form method="POST" action="#">
           <!-- TITULO -->
-          <div class="subtitle">
+          <div class="Title">
             <p>ACCOUNT LOGIN</p>
           </div>
 
           <!-- USERNAME Y PASSWORD -->
           <div class="user-resgiter">
-            <input type="text" id="user-name" placeholder="Username">
+            <input type="text" id="user-name" placeholder="User name">
             <input type="text" id="password" placeholder="Password"> 
           </div>
 
-          <div class="department-selection">
+          <!-- TEXTAREA Y CHECKBOXES -->
+          <div class="textarea_select-department">
+            <div class="box_Textarea">
+              <textarea id="space_textarea" cols="30" rows="10" placeholder="Describe your main objective"></textarea>
+            </div>
 
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-
-            <br>  
-            <label>Deparment</label><br>
+            <div class="select_Department">
+              <label>Department</label>
               <label><input type="checkbox" id="cDA" value="">Department A</label>
               <label><input type="checkbox" id="cDB" value="">Department B</label>
               <label><input type="checkbox" id="cDC" value="">Department C</label>
+            </div>
+          </div>
 
-            </br>
-
-            <!-- <input type="text" id="textoObjectivo"> -->
-            
-
+          <!-- "SELECT" BUILDING -->
+          <div class="box_Buildings">
+            <div class="box_Buildings-Hijo">
             <label>Select building</label>
-            <select id="sDepartments">
+              <select id="s_Buildings">
               <option value="sBA">Building A</option>
               <option value="sBB">Building B</option>
               <option value="sBC">Building C</option>
             </select>
-
-
-          </br>
+            </div>  
+          </div>
 
           <div>
             <p>
@@ -71,7 +72,9 @@
               <label><input type="checkbox" id="regularUser">Regular User<label>
           </div>
 
+          <div>
           <input type="button" id="sign-in" value="sign-in">
+          </div>
 
           <div>
             <p>Forgot</p>
@@ -80,7 +83,8 @@
           </div>
 
           </div>
-        </div>
+        </form>
+
       <!-- FIN SEGUNDO CONTENEDOR -->
       </section>
 

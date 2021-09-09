@@ -21,13 +21,8 @@
  
       <!-- SEGUNDO CONTENEDOR -->
       <section class="contenedor-form">
-<<<<<<< HEAD
-        <!-- Agregar etiqueta FORM -->
-        <div class="form">
-=======
         
         <form method="POST" action="#">
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
           <!-- TITULO -->
           <div class="Title">
             <p>ACCOUNT LOGIN</p>
@@ -39,16 +34,6 @@
             <input type="text" id="password" placeholder="Password"> 
           </div>
 
-<<<<<<< HEAD
-          <!-- TEXTAREA Y DEPARTMENT(CHECKBOX) -->
-          <div>
-            <div>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-         
-            <div>
-              <label>Deparment</label><br>
-=======
           <!-- TEXTAREA Y CHECKBOXES -->
           <div class="textarea_select-department">
             <div class="box_Textarea">
@@ -57,52 +42,47 @@
 
             <div class="select_Department">
               <label>Department</label>
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
               <label><input type="checkbox" id="cDA" value="">Department A</label>
               <label><input type="checkbox" id="cDB" value="">Department B</label>
               <label><input type="checkbox" id="cDC" value="">Department C</label>
             </div>
           </div>
 
-<<<<<<< HEAD
-          <!-- SELECT BUILDING -->
-          <!-- cajita va abaracra el 100% -->
-          <div class="department-selection"> 
-=======
           <!-- "SELECT" BUILDING -->
           <div class="box_Buildings">
             <div class="box_Buildings-Hijo">
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
             <label>Select building</label>
               <select id="s_Buildings">
               <option value="sBA">Building A</option>
               <option value="sBB">Building B</option>
               <option value="sBC">Building C</option>
             </select>
-<<<<<<< HEAD
-=======
             </div>  
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
           </div>
 
-          <div>
-            <p>
-            Terms and Conditions
-            -At login you are accepting the agreement
-            -Your information will be confidential
-            -Be ready for the new update
-            </p>
-            <label></label>
-              <label><input type="checkbox" id="admin">Administrator</label>
-              <label><input type="checkbox" id="regularUser">Regular User<label>
-          </div>
-<<<<<<< HEAD
-          
-=======
+          <div class="control_Users">
+              <!-- TERMNS AND CONDITIONS -->
+              <div clas="control_Users-Hijo">
+              <div class="txt_legend">  
+                <p>
+                Terms and Conditions</br>
+                •At login you are accepting the agreement</br>
+                •Your information will be confidential</br>
+                •Be ready for the new update</br>
+                </p>
+              </div>
 
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
-          <div>
-          <input type="button" id="sign-in" value="sign-in">
+              <!-- USER TYPE [ADMIN OR R_USER] -->
+              <div class="userType">
+                <label class="Tittle_ctlUser">Which plan do you need?</label>
+                <label><input type="radio" id="admin" class="admin">Administrator</label>
+                <label><input type="radio" id="regularUser" class="regularUser">Regular User<label>
+              </div>
+              </div>
+          </div>
+
+          <div clas="btn_sign-in">
+            <input type="button" id="sign-in" value="sign-in">
           </div>
 
           <div>

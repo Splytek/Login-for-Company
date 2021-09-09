@@ -9,7 +9,8 @@ body {
 
 .main {
     width: 1090px;
-    height: 625px;
+    /* 625 y 641 */
+    height: 641px;
     margin: auto;
     background-color: white;
 }
@@ -43,10 +44,6 @@ body {
     float: right;
 }
 
-<<<<<<< HEAD
-.contenedor-form {
-    
-=======
 .contenedor-form form .Title {
     font-size: large;
     padding: 25px 15px 15px 15px;
@@ -56,7 +53,6 @@ body {
 .contenedor-form form .Title p {
     margin: auto;
     width: 485px;
-
 }
 
 .contenedor-form .user-resgiter {
@@ -86,14 +82,15 @@ body {
     width: 50%;
     height: 100%;
     display: inline-block;
+    background-color: green;
 }
 
 .textarea_select-department .box_Textarea textarea {
     resize: none;
-    width: 88.9%;
-    height: 96.9%;
+    width: 84.9%;
+    height: 85.5%;
+    padding: 5px;
     margin-left: 29px;
-    /* No se te olvide agregar un padding en el textarea para dejar un espacio bien definido para que el usuario escriba bien */
 }
 
 /* CHECKBOXES */
@@ -101,6 +98,7 @@ body {
     float: right;
     width: 50%;
     height: 100%;
+    background-color: indianred;
 }
 
 .textarea_select-department .select_Department label {
@@ -113,6 +111,7 @@ body {
 
 .box_Buildings {
     width: 100%;
+    background-color: orange;
 }
 
 .box_Buildings-Hijo {
@@ -120,5 +119,45 @@ body {
     padding: 8px 0px;
     margin: auto;
     margin-top: 15px;
->>>>>>> 7c4f2fc751b9501fde8c14ae4eb45a3b60f2d46b
+    background-color: green;
 }
+
+
+/*AQUI COMIENZA LAS CAJAS DE TERMINOS Y CONDICIONES Y CONTROL DE USUARIOS*/
+/* CAJA PADRE */
+.control_Users {
+    width: 100%;
+    /* padding-top: 15px; */
+    background-color: hotpink;
+}
+
+
+/* CAJA HIJO 1 */
+.control_Users .txt_legend {
+    display: inline-block;
+    width: 44%;
+    height: 100%;
+    padding: 2.4px;
+    margin-left: 28px;
+    background: yellow;
+}
+
+.control_Users .txt_legend p {
+    font-size: 14px;
+}
+
+/* CAJA HIJO 2 */
+.control_Users .userType {
+    width: 43.5%;
+    padding: 2px;
+    display: inline-block;
+    background-color: indianred;
+}
+
+.userType .Tittle_ctlUser{
+    display: block;
+}
+
+/* .btn_sign-in {
+    background-color: green;
+} */

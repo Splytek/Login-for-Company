@@ -10,7 +10,7 @@ body {
 .main {
     width: 1090px;
     /* 625 y 641 */
-    height: 641px;
+    height: 625px;
     margin: auto;
     background-color: white;
 }
@@ -46,7 +46,7 @@ body {
 
 .contenedor-form form .Title {
     font-size: large;
-    padding: 25px 15px 15px 15px;
+    padding: 40px 15px 40px 15px;
     text-align: center;
 }
 
@@ -75,14 +75,13 @@ body {
 .textarea_select-department {
     width: 100%;
     height: 80px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .textarea_select-department .box_Textarea {
     width: 50%;
     height: 100%;
     display: inline-block;
-    background-color: green;
 }
 
 .textarea_select-department .box_Textarea textarea {
@@ -90,15 +89,20 @@ body {
     width: 84.9%;
     height: 85.5%;
     padding: 5px;
-    margin-left: 29px;
+    margin-left: 28px;
 }
 
 /* CHECKBOXES */
 .textarea_select-department .select_Department {
     float: right;
-    width: 50%;
+    width: 49%;
     height: 100%;
-    background-color: indianred;
+}
+
+.textarea_select-department .select_Department .select_Department-Hijo {
+    width: 89%;
+    height: 98%;
+    border: 1px solid #000;
 }
 
 .textarea_select-department .select_Department label {
@@ -111,7 +115,6 @@ body {
 
 .box_Buildings {
     width: 100%;
-    background-color: orange;
 }
 
 .box_Buildings-Hijo {
@@ -119,7 +122,6 @@ body {
     padding: 8px 0px;
     margin: auto;
     margin-top: 15px;
-    background-color: green;
 }
 
 
@@ -127,19 +129,17 @@ body {
 /* CAJA PADRE */
 .control_Users {
     width: 100%;
-    /* padding-top: 15px; */
-    background-color: hotpink;
+    padding-top: 20px;
 }
 
 
 /* CAJA HIJO 1 */
 .control_Users .txt_legend {
+    width: 43.7%;
+    padding: 3px 3px 3px 2px;
+    margin-left: 27.9px;
     display: inline-block;
-    width: 44%;
-    height: 100%;
-    padding: 2.4px;
-    margin-left: 28px;
-    background: yellow;
+    border: 1px solid #000;
 }
 
 .control_Users .txt_legend p {
@@ -148,16 +148,60 @@ body {
 
 /* CAJA HIJO 2 */
 .control_Users .userType {
-    width: 43.5%;
-    padding: 2px;
+    width: 43.9%;
+    height: 35px;
+    padding: 31px 0px 4px 0px;
     display: inline-block;
-    background-color: indianred;
+    border: 1px solid #000;
 }
 
 .userType .Tittle_ctlUser{
     display: block;
 }
 
-/* .btn_sign-in {
-    background-color: green;
-} */
+.btn_sign_in {
+    padding-top: 20px;
+}
+
+.btn_sign_in .btn_sign_in-Hijo {
+    width: 90%;
+    margin: auto;
+}
+
+.btn_sign_in input[type="button"]{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: #06a35b;
+    font-family: 'Times New Roman';
+}
+
+.btn_sign_in input[type="button"]:hover{
+    color: #000;
+    background-color: #f7e4ea;
+}
+
+.btn_sign_in input[type="button"]:active{
+    background-color: darkorange;
+}
+
+.restore_data {
+    padding-top: 30px;
+
+}
+
+.restore_data-Hijo {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.restore_data-Hijo > p{
+    display: inline-block;
+}
+
+.restore_data-Hijo > a {
+    display: inline-block;
+}

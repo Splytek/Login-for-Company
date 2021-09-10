@@ -10,7 +10,7 @@ body {
 .main {
     width: 1090px;
     /* 625 y 641 */
-    height: 625px;
+    height: 641px;
     margin: auto;
     background-color: white;
 }
@@ -81,12 +81,12 @@ body {
 .textarea_select-department .box_Textarea {
     width: 50%;
     height: 100%;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .textarea_select-department .box_Textarea textarea {
     resize: none;
-    width: 84.9%;
+    width: 85.9%;
     height: 85.5%;
     padding: 5px;
     margin-left: 28px;
@@ -95,8 +95,9 @@ body {
 /* CHECKBOXES */
 .textarea_select-department .select_Department {
     float: right;
-    width: 49%;
+    width: 50%;
     height: 100%;
+    display: inline-flex;
 }
 
 .textarea_select-department .select_Department .select_Department-Hijo {
